@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap'); /* Add this to import Outfit Thin */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Outfit', sans-serif; /* Apply the Outfit Thin font */
+  
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #070707;
+}
+
+/* Hide scrollbars on WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar */
+}
+
+/* Hide scrollbars on Firefox */
+html {
+  scrollbar-width: none; /* Hides scrollbar */
+}
+
+/* Hide scrollbars on Edge */
+body {
+  -ms-overflow-style: none; /* Hides scrollbar */
+}
+
+input,
+textarea {
+  color: #000;
+}
